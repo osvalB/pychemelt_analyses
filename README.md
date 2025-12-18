@@ -1,0 +1,1 @@
+This repository contains notebooks showing the analysis of denaturation data with the python pacakge pychemelt, available at https://github.com/osvalB/pychemelt 
