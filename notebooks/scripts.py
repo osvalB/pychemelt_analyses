@@ -57,7 +57,7 @@ def aux_create_pychem_sim(params,rng_seed=2):
     concs = np.arange(1,5.5,0.5)
 
     # Calculate signal range for proper y-axis scaling
-    temp_range = np.linspace(20, 90, 100)
+    temp_range = np.linspace(20, 90, 100) + 273.15
     signal_list = []
     temp_list   = []
 
@@ -74,7 +74,7 @@ def aux_create_pychem_sim(params,rng_seed=2):
         signal_list.append(y)
         temp_list.append(temp_range)
 
-    pychem_sim = pychem.Sample()
+    pychem_sim = pychem.Monomer()
 
     pychem_sim.signal_dic['Simulated signal'] = signal_list
     pychem_sim.temp_dic['Simulated signal']   = [temp_range for _ in range(len(concs))]
