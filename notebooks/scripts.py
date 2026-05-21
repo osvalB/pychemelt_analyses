@@ -61,12 +61,14 @@ def aux_create_pychem_sim(params,rng_seed=2):
     signal_list = []
     temp_list   = []
 
-    for i,D in enumerate(concs):
+    for i, D in enumerate(concs):
 
         y = pychem.signal_two_state_tc_unfolding(temp_range, D, **params)
 
         # Add gaussian error to simulated signal
-        y += rng.normal(0, 0.02, len(y))
+        noise = rng.normal(0, 0.25, len(y))
+        y += noise
+        #y += rng.normal(0, 0.02, len(y))
 
         # Add error to the initial signal to model variance across positions
         y *= rng.uniform(0.9,1.1)
@@ -88,7 +90,7 @@ def aux_create_pychem_sim(params,rng_seed=2):
 
     pychem_sim.set_signal('Simulated signal')
 
-    pychem_sim.select_conditions(normalise_to_global_max=True)
+    pychem_sim.select_conditions(normalise_to_global_max=False)
     pychem_sim.expand_multiple_signal()
 
     return pychem_sim
