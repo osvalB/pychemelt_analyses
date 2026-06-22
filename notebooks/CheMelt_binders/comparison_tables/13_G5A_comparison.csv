@@ -1,0 +1,10 @@
+Sample,Native Baseline,Unfolded Baseline,Model Type,Tm,ΔHm,ΔCp,m-value,AIC,BIC,EBIC,Reduced χ²
+G5A,quadratic,exponential,Global slopes and global intercepts,100.9,91.4,6.99,1.07,2514.37,2692.87,3017.27,2.8903
+G5A,linear,linear,Global slopes and global intercepts,95.9,152.2,3.56,1.22,2830.14,2997.12,3304.22,3.3107
+G5A,linear,exponential,Global slopes and global intercepts,123.8,175.5,5.0,1.74,3163.96,3336.69,3652.48,3.8167
+G5A,quadratic,linear,Global slopes and global intercepts,144.0,10.0,0.11,0.5,3849.46,4022.19,4337.98,5.1158
+G5A,exponential,exponential,Global slopes and global intercepts,100.1,80.1,8.36,0.63,3849.9,4028.39,4352.8,5.1146
+G5A,quadratic,quadratic,Global slopes and global intercepts,156.0,148.1,1.33,3.06,3941.49,4119.99,4444.39,5.3187
+G5A,exponential,linear,Global slopes and global intercepts,87.0,10.0,0.4,0.5,4232.38,4405.12,4720.91,6.0253
+G5A,exponential,quadratic,Global slopes and global intercepts,156.0,195.9,1.8,3.89,5025.0,5203.5,5527.91,8.4509
+G5A,linear,quadratic,Global slopes and global intercepts,140.5,128.0,1.5,0.5,6959.77,7132.51,7448.29,19.3274

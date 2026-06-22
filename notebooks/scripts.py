@@ -180,3 +180,25 @@ def folded_fraction(DG,T):
     f_n = 1 / (1 + K)
 
     return f_n
+
+def set_condition_indexes_to_false(conditions,outliers_or_other_data):
+
+    """
+    Given a list of conditions and a list of outliers or other data, set the corresponding indexes in the conditions list to False.
+    Parameters    ----------
+    conditions : list of bool
+        list of conditions to be modified
+    outliers_or_other_data : list of str
+        list of outliers or other data in the format of "1-3" for a range of conditions or "5" for a single condition. 
+        The indexes in the conditions list will be set to False based on this list. They start at 1.
+    """
+
+    for i in outliers_or_other_data:
+        if "-" in i:
+            start, end = map(int, i.split("-"))
+            for j in range(start, end + 1):
+                conditions[j - 1] = False
+        else:
+            conditions[int(i) - 1] = False    
+
+    return conditions
