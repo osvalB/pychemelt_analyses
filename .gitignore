@@ -29,3 +29,6 @@ Thumbs.db
 
 .pytest_cache/
 
+# Python objects folder
+./notebooks/CheMelt_binders/py_objects/
+
