@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
+mkdir -p executed
 
-for nb in *.ipynb; do
-    if [[ "$nb" =~ ^[0-9]+_[A-Za-z]{3}\.ipynb$ ]]; then
-        echo "Running $nb"
-        jupyter nbconvert --to notebook --execute "$nb"
-    fi
+for nb in *_*.ipynb; do
+    case "$nb" in
+        *_join_results.ipynb|*_plot_all.ipynb)
+            continue
+            ;;
+    esac
+
+    echo "Running $nb"
+    papermill "$nb" "executed/$nb"
 done

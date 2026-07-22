@@ -1,10 +1,10 @@
 Sample,Native Baseline,Unfolded Baseline,Model Type,Tm,ΔHm,ΔCp,m-value,AIC,BIC,EBIC,Reduced χ²
+P6B,exponential,linear,Global slopes and global intercepts,136.8,151.9,1.18,3.31,-2473.56,-2292.0,-1961.43,0.3793
+P6B,exponential,exponential,Global slopes and global intercepts,136.9,151.9,1.18,3.31,-2463.14,-2275.72,-1936.39,0.3806
 P6B,quadratic,linear,Global slopes and global intercepts,136.8,153.7,1.2,3.34,-2447.02,-2265.46,-1934.89,0.3832
+P6B,quadratic,exponential,Global slopes and global intercepts,136.8,153.7,1.2,3.34,-2434.2,-2246.78,-1907.46,0.3849
 P6B,exponential,quadratic,Global slopes and global intercepts,134.8,120.8,0.92,2.58,-2410.35,-2228.79,-1898.22,0.3886
 P6B,quadratic,quadratic,Global slopes and global intercepts,134.7,121.3,0.93,2.58,-2376.92,-2189.51,-1850.18,0.3936
 P6B,linear,linear,Global slopes and global intercepts,137.9,173.7,1.37,3.77,-2192.7,-2017.0,-1695.25,0.423
+P6B,linear,exponential,Global slopes and global intercepts,135.7,190.4,1.68,3.9,-2146.92,-1965.36,-1634.79,0.4304
 P6B,linear,quadratic,Global slopes and global intercepts,137.3,129.7,0.98,2.79,-1773.88,-1592.32,-1261.75,0.4972
-P6B,exponential,exponential,Global slopes and global intercepts,141.2,94.2,0.65,2.16,-1319.29,-1131.88,-792.55,0.5927
-P6B,quadratic,exponential,Global slopes and global intercepts,140.7,90.4,0.61,2.08,-1311.25,-1123.84,-784.51,0.5945
-P6B,linear,exponential,Global slopes and global intercepts,149.3,90.7,0.54,2.28,-669.18,-487.62,-157.05,0.7626
-P6B,exponential,linear,Global slopes and global intercepts,77.7,36.6,0.92,0.5,4108.6,4284.3,4606.05,4.8505

@@ -3,8 +3,8 @@ P3B,quadratic,linear,Global slopes and global intercepts,127.7,113.5,1.04,2.44,-
 P3B,quadratic,quadratic,Global slopes and global intercepts,127.6,111.8,1.02,2.4,-2584.96,-2404.92,-2077.39,0.3453
 P3B,quadratic,exponential,Global slopes and global intercepts,127.7,113.5,1.04,2.44,-2581.53,-2401.49,-2073.96,0.3458
 P3B,exponential,linear,Global slopes and global intercepts,128.7,114.5,1.04,2.48,-2359.09,-2184.85,-1866.05,0.3787
-P3B,exponential,quadratic,Global slopes and global intercepts,128.8,88.1,0.78,1.92,-1964.99,-1784.95,-1457.42,0.4443
+P3B,exponential,quadratic,Global slopes and global intercepts,128.8,88.1,0.78,1.92,-1965.0,-1784.95,-1457.43,0.4443
 P3B,exponential,exponential,Global slopes and global intercepts,132.8,73.3,0.63,1.66,-1366.94,-1186.9,-859.37,0.5666
-P3B,linear,quadratic,Global slopes and global intercepts,150.7,69.7,0.47,1.88,2708.91,2883.15,3201.96,2.9715
-P3B,linear,linear,Global slopes and global intercepts,153.4,82.4,0.56,2.26,2727.01,2895.44,3205.45,2.9946
-P3B,linear,exponential,Global slopes and global intercepts,152.4,30.9,0.1,0.5,2865.82,3040.06,3358.86,3.1672
+P3B,linear,quadratic,Global slopes and global intercepts,150.7,69.6,0.47,1.88,2709.22,2883.46,3202.26,2.9719
+P3B,linear,linear,Global slopes and global intercepts,170.4,45.0,0.42,0.68,2911.1,3079.53,3389.55,3.2273
+P3B,linear,exponential,Global slopes and global intercepts,169.7,21.1,0.14,0.5,3128.8,3303.04,3621.85,3.5245
